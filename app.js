@@ -149,16 +149,16 @@ async function emailTo(mailContent) {
         secure: true,
         auth: {
           // メールアドレス
-          user: "mofashi523@gmail.com",
+          user: "XXXXXX",
           // 16桁のアプリパスワード
           // !!サーバーの環境関数に保存すべきでしょう!!
-          pass: "dfputmlkwrnlbvyl",
+          pass: "XXXXXX",
         },
       });
       
       transporter.sendMail({
-        from: "mofashi523@gmail.com",
-        to: "dingding.dzh@gmail.com",
+        from: "XXXXX",
+        to: "XXXXX",
         subject: "予約状況",
         text: mailContent,
       }, function (error, info) {
